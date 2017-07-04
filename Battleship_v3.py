@@ -6,11 +6,6 @@
 # Once it hits a ship, it guesses all surrounding spaces before moving on, helping it sink ships
 # The concepts for a smarter computer are based on the following article: http://www.datagenetics.com/blog/december32011/index.html
 
-### BUGS
-# Weird printing for input errors
-# Computer stops following target_list too soon
-### Note ---- dictionary set up is currently {col: row}
-### Only 3/4 targets were correctly input into target_hits. One missing (row - 1 ==== south)
 
 from random import randint
 from random import choice
